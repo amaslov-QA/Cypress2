@@ -1,0 +1,22 @@
+{
+  "name": "cypress2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:dash": "cypress run --record --key a73c3a38-b2c7-4ad2-9b07-4646d93f7e9c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amaslov-QA/Cypress2.git"
+  },
+  "author": "aamaslov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amaslov-QA/Cypress2/issues"
+  },
+  "homepage": "https://github.com/amaslov-QA/Cypress2#readme",
+  "dependencies": {
+    "cypress": "^9.6.0"
+  }
+}

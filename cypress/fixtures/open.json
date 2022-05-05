@@ -1,0 +1,7 @@
+{
+  "Hercules": "#start-sales > div:nth-child(2) > ul > li:nth-child(2) > input",
+  "OpenTicket": "#start-sales > .text-center > .conf-step__button",
+  "Time": ":nth-child(2) > :nth-child(2) > .movie-seances__list > .movie-seances__time-block > .movie-seances__time",
+  "boocking": ".acceptin-button",
+  "QR": ".acceptin-button"
+}
