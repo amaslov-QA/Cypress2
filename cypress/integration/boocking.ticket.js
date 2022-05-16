@@ -16,5 +16,6 @@ describe("booking tickets, when you turn on the hall from the admin", () => {
       ).click();
     });
     cy.get(hall.boocking).click();
+    cy.contains("Начало сеанса");
   });
 });
