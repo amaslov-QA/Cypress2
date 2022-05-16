@@ -1,6 +1,6 @@
-const login = require("../fixtures/login_page.json");
-const hall = require("../fixtures/open.json");
-const seats = require("../fixtures/seats.json");
+const login = require("../../fixtures/login_page.json");
+const hall = require("../../fixtures/open.json");
+const seats = require("../../fixtures/seats.json");
 
 describe("booking tickets, when you turn on the hall from the admin", () => {
   it("booking tickets", () => {
