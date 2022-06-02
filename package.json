@@ -5,11 +5,14 @@
   "main": "index.js",
   "scripts": {
     "cy:dash": "cypress run --browser chrome --record --key a73c3a38-b2c7-4ad2-9b07-4646d93f7e9c",
-    "cy:boocking": "cypress run --browser firefox --record --key a73c3a38-b2c7-4ad2-9b07-4646d93f7e9c --spec 'cypress/integration/boocking.ticket.js'",
-    "cy:open": "cypress run  --browser chrome --record --key a73c3a38-b2c7-4ad2-9b07-4646d93f7e9c --spec 'cypress/integration/login.page.js'",
-    "cy:page": "cypress run --browser electron --record --key a73c3a38-b2c7-4ad2-9b07-4646d93f7e9c --spec 'cypress/integration/page.display.js'",
+    "cy:boocking": "cypress run --browser firefox --record --key a73c3a38-b2c7-4ad2-9b07-4646d93f7e9c --spec 'cypress/integration/Ticket/boocking.ticket.js'",
+    "cy:open": "cypress run  --browser chrome --record --key a73c3a38-b2c7-4ad2-9b07-4646d93f7e9c --spec 'cypress/integration/Ticket/login.page.js'",
+    "cy:page": "cypress run --browser electron --record --key a73c3a38-b2c7-4ad2-9b07-4646d93f7e9c --spec 'cypress/integration/Ticket/login.page.js'",
     "cy:parallel": "npm run cy:open  & npm run cy:boocking --parallel",
-    "cy:parallel2": "npm run cy:boocking --browser chrome --group Spec3 --ci-build-id 1 & npm run cy:open --browser chrome --group Spec4 --ci-build-id 1"
+    "cy:parallel2": "npm run cy:open  & npm run cy:boocking --parallel",
+    "cy:apiPost": "cypress run --browser firefox --record --key a73c3a38-b2c7-4ad2-9b07-4646d93f7e9c --spec 'cypress/integration/API/user create.js'",
+    "cy:apiDelete": "cypress run  --browser chrome --record --key a73c3a38-b2c7-4ad2-9b07-4646d93f7e9c --spec 'cypress/integration/API/user_delete.js'",
+    "cy:apiUpdate": "cypress run --browser electron --record --key a73c3a38-b2c7-4ad2-9b07-4646d93f7e9c --spec 'cypress/integration/API/user_update.js"
   },
   "repository": {
     "type": "git",
